@@ -1,0 +1,10 @@
+document.write("llamado desde otro archivo...");
+var nom;
+var a,b,s;
+nom=prompt("hola ingrese su nombre por :");
+alert("hola "+nom);
+document.write("<br>hola </br>"+ nom);
+a=parseInt(prompt("a:"));
+b=parseInt(prompt("b:"));
+s=a+b;
+alert("sum "+s);
